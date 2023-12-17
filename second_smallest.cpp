@@ -10,7 +10,7 @@ for(int i=0;i<n;i++){
         second_smallest=smallest;
         smallest=a[i];
     }
-    else if(a[i]>smallest && a[i]<second_smallest){
+    else if(a[i]!=smallest && a[i]<second_smallest){
         second_smallest=a[i];
     }
 }
